@@ -1,0 +1,55 @@
+package getAndset;
+
+public class Persona {
+	 private String name;
+	    private String apellido;
+	    private int edad;
+	    
+		public Persona(String name, String apellido, int edad) {
+			this.name = name;
+			this.apellido = apellido;
+			this.edad = edad;
+}
+		
+	    
+	    public String getName() {
+			return name;
+		}
+
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+
+		public String getApellido() {
+			return apellido;
+		}
+
+
+		public void setApellido(String apellido) {
+			this.apellido = apellido;
+		}
+
+
+		public int getEdad() {
+			return edad;
+		}
+
+
+		public void setEdad(int edad) {
+			if (edad < 0)throw new IllegalArgumentException("La edad no puede ser negativa");
+			this.edad = edad;
+		}
+
+
+		public String mostrar() {
+	    	
+	    	System.out.println("Nombre: + nombre");
+	    	System.out.println("Apellido: + apellido");
+	    	System.out.println("Edad: + edad");
+	    	
+	    	return "";
+	    	
+	    }
+	}
