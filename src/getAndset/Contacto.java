@@ -20,6 +20,6 @@ public class Contacto {
     }
 
     public void mostrar() {
-        System.out.println("Contacto: " + nombre + " Telefono: " + telefono + "  Email: " + email);
+        System.out.println("Contacto: " + nombre + " | Telefono: " + telefono + " | Email: " + email);
     }
 }

@@ -23,6 +23,6 @@ public class Factura {
 
     public void mostrar() {
         double total = cantidad * precioUnitario;
-        System.out.println("Factura: " + codigo + "  Total: " + total);
+        System.out.println("Factura: " + codigo + " | Total: " + total);
     }
 }

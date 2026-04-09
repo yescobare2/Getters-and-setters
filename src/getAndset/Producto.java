@@ -64,7 +64,7 @@ public class Producto {
 	
  //Metodo mostrar
 	public void mostrar() {
-		System.out.println("Codigo:" + codigo + "Producto" + nombre + "Precio$" + precio + "Stock" + stock);
+		System.out.println(" Codigo: " + codigo + "| Producto " + nombre + "| Precio$ " + precio + "| Stock " + stock);
 	}
 	}
 

@@ -18,7 +18,7 @@ public class CuentaBancaria {
 	}
 	
 	public void mostrar() {
-		System.out.println("Titular:" + titular + "Saldo:" + saldo);
+		System.out.println("Titular:" + titular + " | Saldo:" + saldo);
 	}
 
 }

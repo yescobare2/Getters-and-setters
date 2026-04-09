@@ -45,9 +45,9 @@ public class Persona {
 
 		public String mostrar() {
 	    	
-	    	System.out.println("Nombre: + nombre");
-	    	System.out.println("Apellido: + apellido");
-	    	System.out.println("Edad: + edad");
+	    	System.out.println("Nombre:" + this.name);
+	    	System.out.println("Apellido: " + this.apellido);
+	    	System.out.println("Edad: " + this.edad);
 	    	
 	    	return "";
 	    	
